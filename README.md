@@ -11,3 +11,19 @@ if (->x is val 5) {
 }
 ```
 this lang is translates to javascript
+### How to Run
+
+1. Clone this repository and compile the translator (or use the precompiled binary):
+```bash
+pp -o atjs translator.pl
+```
+
+2. Create your script file `main.atjs` and run the compiler:
+```bash
+./atjs main.atjs main.js
+```
+
+3. Run the compiled JavaScript code with Node.js:
+```bash
+node main.js
+```
