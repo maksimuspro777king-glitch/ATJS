@@ -10,7 +10,7 @@ if (->x is val 5) {
   printlog(["ooh"])
 }
 ```
-this lang is translates to javascript
+**this lang** is translates to javascript
 ### How to Run
 
 1. Clone this repository and compile the translator (or use the precompiled binary):
